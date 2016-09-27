@@ -28,8 +28,8 @@ function creerParagBout() {
 	var nouvBouton = document.createElement('button');
 	
 	//Attribution d'id à ces 2 elements.
-	nouvParag.class = 'parag2';
-	nouvBouton.class = 'bouton2';
+	nouvParag.id = 'parag2';
+	nouvBouton.id = 'bouton2';
 	nouvBouton.setAttribute('onclick','changerStyle2()')
 
 	//Insertion des elements
@@ -47,7 +47,7 @@ function creerParagBout() {
 }
 
 function changerStyle2() {
-	var parag2 = document.getElementByClass('parag2');
+	var parag2 = document.getElementById('parag2');
 	parag2.style.color = "blue";
 	parag2.style.backgroundColor = "yellow";
 	parag2.style.border = "7px solid green";
