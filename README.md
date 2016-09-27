@@ -7,3 +7,4 @@
     - une bordure rouge pointillée de 1px.
     - un padding de 5px.
 
+Lien <a href="https://github.com/nabil-g/Exo1-Js/blob/master/index.html">résultat</a> !
